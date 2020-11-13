@@ -578,10 +578,10 @@
 	- ex) select count(m.id), select count(m) === select count(m.id) as cnt
 - 엔티티 직접 사용, 기본 키 값
 	- ex) select m from Member m when m 또는 m.id = :member;
-	- ~~~.setParameter의 값을 member 객체 또는 member의 id(String)으로 할 수 있음
+	- xxx.setParameter의 값을 member 객체 또는 member의 id(String)으로 할 수 있음
 - 엔티티 직접 사용, 외래 키 값
 	- ex) select m from Member m when m.team 또는 m.team.id = :team
-	- ~~~.setParameter의 값을 team 객체 또는 team의 id(String)으로 할 수 있음
+	- xxx.setParameter의 값을 team 객체 또는 team의 id(String)으로 할 수 있음
 
 
 ###  5. Named 쿼리 - 어노테이션
